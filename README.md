@@ -3,7 +3,7 @@ in python 3.5
 
 
 ### installtion guid
-for installing fist need python 3.5 is installed in ubutnu.
+for installing fist need python 3.5 which is pre installed in ubutnu.
 
 needed libraries:
 - matplotlib
