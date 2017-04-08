@@ -141,7 +141,7 @@ class BrillouinZone(object):
 
 
 #BrillouinZone([1, 0], [0, 1], 5);
-BrillouinZone([1, 0], [np.cos(np.deg2rad(60)), np.sin(np.deg2rad(60))], 6);
+BrillouinZone([1, 0], [np.cos(np.deg2rad(60)), np.sin(np.deg2rad(60))], 5);
 
 
 # minn = np.minimum(funcs[0], funcs[1]);
