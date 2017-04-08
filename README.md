@@ -1,8 +1,8 @@
 # brillouin-zones
 in python 3.5
 
-![preview for simple lattice](https://github.com/sajadabasi/brillouin-zones/raw/master/video/brillouin-cs.mp4)
-![preview for hexagonal lattice](https://github.com/sajadabasi/brillouin-zones/raw/master/video/brillouin-hex.mp4)
+![preview for simple lattice](https://github.com/sajadabasi/brillouin-zones/raw/master/video/brillouin-cs.gif)
+![preview for hexagonal lattice](https://github.com/sajadabasi/brillouin-zones/raw/master/video/brillouin-hex.gif)
 
 ### installtion guid
 for installing fist need python 3.5 which is pre installed in ubutnu.
