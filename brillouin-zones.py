@@ -61,6 +61,7 @@ class BrillouinZone(object):
 	def update(self):
 		funcs = [];
 		for i in range(0, self.brillouin):
+		#for i in range(self.brillouin - 1 , self.brillouin):
 			for j in range(0, self.non):
 				if np.abs((float((self.pointsY[j] ** 2 + self.pointsX[j] ** 2)) - self.distances[i])) < 0.001:
 					funcs.append(self.plot(self.pointsX[j], self.pointsY[j], i));
@@ -139,8 +140,8 @@ class BrillouinZone(object):
 		return self.colors[index];
 
 
-BrillouinZone([1, 0], [0, 1], 5);
-# BrillouinZone([1, 0], [np.cos(np.deg2rad(60)), np.sin(np.deg2rad(60))], 6);
+#BrillouinZone([1, 0], [0, 1], 5);
+BrillouinZone([1, 0], [np.cos(np.deg2rad(60)), np.sin(np.deg2rad(60))], 6);
 
 
 # minn = np.minimum(funcs[0], funcs[1]);

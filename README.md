@@ -38,7 +38,21 @@ and enjoy the code
 
 
 # breif description of the code:
-- soon...
+- usage:
+	the usage of code is so easy just edit the followin line of code:
+```python
+	BrillouinZone(a1, a2, size);
+```
+which a1 and a2 are basic vectors of lattice and size is the size of lattice
+	example:
+```python
+BrillouinZone([1, 0], [0, 1], 5);
+```
+
+- how code works:
+	- first all distanecs of all points to centeal point will calculated and will sotred in array and sorted.
+	- calculates the nodes with the specisfic distance from top array
+	- plot the Perpendicular of that node and centeral node. by calculating the tilt of the line 	
 
 
 # TODO 
