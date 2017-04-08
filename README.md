@@ -24,6 +24,8 @@ installing libraries with pip:
 ```bash
 	sudo pip3 install matplotlib
 	sudo pip3 install numpy
+	# or
+	python3.5 -m pip install matplotlib
 ```
 
 and then running the code 
@@ -41,4 +43,4 @@ and enjoy the code
 
 # TODO 
 - colorize the zones
-
+- 
